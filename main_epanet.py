@@ -57,9 +57,6 @@ def get_inp_files() -> str:
         return f"Error: {str(e)}"
 
 
-import os
-import wntr
-
 @mcp.tool()
 def run_epanet_simulation(file_name: str) -> str:
     """
